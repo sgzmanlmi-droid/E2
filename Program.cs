@@ -25,7 +25,22 @@ namespace E2
             }
             string resultado = FuncionesII("Unidad 2");
             Console.WriteLine(resultado);
+
+            // Ejercicio 3
+
             
+            double CalcularPendiente()
+            {
+                double x1 = 3;
+                double y1 = 6;
+                double x2 = 7;
+                double y2 = 9;
+
+                double m = (y2 - y1) / (x2 - x1);
+            }
+                return m;
+            
+
             // Ejercicio 4
             int FuncionSinParametros()
             {
@@ -35,6 +50,24 @@ namespace E2
             Console.WriteLine($"Funcion sin parametros : {resultado}");
 
             // Ejercicio 5
+            
+            bool EsOctubre()
+            {
+            string cadena = "octubre";
+
+            if (cadena == "octubre")
+            {
+            return true;
+            }
+            else
+            {
+            return false;
+            }
+            }
+
+            // Invocar la funcion
+            Console.WriteLine(EsOctubre());
+
 
 
         }
